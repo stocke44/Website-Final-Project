@@ -1,0 +1,117 @@
+body{
+    margin:0 auto;
+    width: 100%;
+    
+    background-image:url('../images/body.jpg')
+}
+
+
+
+
+
+/*<!---------- Start of Navbar ---------->*/
+.navbar{
+    background-color: orange;
+    height:70px;
+    width:100%;
+    position:fixed;
+    top: 0;
+    left:0;
+    z-index: 1;
+}
+.nav-search{
+    margin-top: 19px;
+    float:right;
+    margin-right: 10px;
+}
+.search, .button{
+    float: left;
+}
+ul {
+    padding:0px; 
+    
+} 
+.nav-list{
+    float: right;
+}
+
+.logo{
+    height:70px;
+    width:12%;
+}
+.anchor{
+    float: left;
+}
+.list-item{
+    float:left;
+    list-style-type: none;
+    background-color: white;
+    margin:4px;
+    border:2px solid black;
+}
+/*<!---------- End of Navbar ---------->*/
+
+/*<!---------- Start of Hero ---------->*/
+
+.hero{
+    background-image:url('../images/hero.png');
+    background-size: 100% 500px;
+    height:500px;
+    width: 100%;
+    position: relative;
+    top: 50px;
+    
+}
+
+
+/*<!---------- End of Hero ---------->*/
+
+/*<!---------- Start of Main Body ---------->*/
+.main{
+    height:450px;
+    width: 100%;
+}
+.box{
+    float:left;
+    background-color: gray;
+    height: 400px;
+    width:43%;
+    border: 2px solid black;
+    margin: 75px 30px 30px 30px;
+}
+
+
+
+
+/*<!---------- End of Main Body ---------->*/
+
+/*<!---------- Start of  Footer ---------->*/
+footer{
+    background-color: orange;
+    height:70px;
+    clear: both;
+}
+.footer-words{
+    float: left;
+    width:33%;
+}
+.social,.copyright{
+    margin-top: 20px;
+    display:block;
+    text-align: center;
+}
+.fab{
+    font-size: 2em;
+    padding-left:10px;
+}
+.fa-facebook{
+    color:#4267b2;
+}
+.fa-twitter{
+    color: #38A1F3;
+}
+
+/*<!---------- End of  Footer ---------->*/
+
+
+
