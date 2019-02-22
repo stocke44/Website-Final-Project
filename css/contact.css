@@ -12,5 +12,11 @@ body{
 }
 
 .form{
+    margin-top: 85px;
     float:right;
+    width:40% !important;
+}
+.map{
+    margin-top: 85px;
+    width:40% !important;
 }

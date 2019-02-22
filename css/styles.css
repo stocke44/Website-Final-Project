@@ -1,7 +1,6 @@
 body{
     margin:0 auto;
     width: 100%;
-    /*background-image:url('../images/body.jpg')*/
 }
 
 
@@ -88,11 +87,15 @@ h1{
     height:100px;
     width: 160px;
     display: none;
+    transition: transform .2s;
 }
-
+.image1:hover {
+  transform: scale(1.5); 
+}
 .image1{
     background-image:url('../images/adult_gohan.jpg');
     background-size: 100% 100px;
+    transition: transform .2s;
 }
 .image2{
     background-image:url('../images/videl_edit.jpg');
@@ -103,8 +106,6 @@ h1{
     background-size: 100% 100px;
 }
 .hero{
-    /*background-image:url('../images/hero.png');*/
-    /*background-size: 100% 500px;*/
     height:500px;
     width: 100%;
     position: relative;
@@ -112,7 +113,9 @@ h1{
     
 }
 
-
+.switch{
+    margin-left: 50px;
+}
 /*<!---------- End of Hero ---------->*/
 
 /*<!---------- Start of Main Body ---------->*/
