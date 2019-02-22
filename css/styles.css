@@ -92,6 +92,12 @@ h1{
 .image1:hover {
   transform: scale(1.5); 
 }
+.image2:hover {
+  transform: scale(1.5); 
+}
+.image3:hover {
+  transform: scale(1.5); 
+}
 .image1{
     background-image:url('../images/adult_gohan.jpg');
     background-size: 100% 100px;
@@ -100,10 +106,12 @@ h1{
 .image2{
     background-image:url('../images/videl_edit.jpg');
     background-size: 100% 100px;
+    transition: transform .2s;
 }
 .image3{
     background-image:url('../images/vegito.jpg');
     background-size: 100% 100px;
+    transition: transform .2s;
 }
 .hero{
     height:500px;

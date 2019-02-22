@@ -26,7 +26,7 @@ function left_box(){
   document.getElementsByClassName("image1")[0].src = '/images/gohan.jpg';
   document.getElementsByClassName("box")[0].style.margin = "90px 0px 0px 0px";
   document.getElementsByClassName("image1")[0].style.width= "40%";
-  document.getElementsByClassName("image1")[0].style.height = '400px'
+  document.getElementsByClassName("image1")[0].style.height = '415px'
   document.getElementsByClassName("button-next")[0].style.display = 'block';
   document.getElementsByClassName("button-next1")[0].style.display = 'block';
   document.getElementsByClassName("ytube")[0].style.display = 'inline';
@@ -42,7 +42,7 @@ function center_box(){
   document.getElementsByClassName("image2")[0].src = '/images/vid.jpg';
   document.getElementsByClassName("box")[0].style.margin = "90px 0px 0px 0px";
   document.getElementsByClassName("image2")[0].style.width= "40%";
-  document.getElementsByClassName("image2")[0].style.height = '400px'
+  document.getElementsByClassName("image2")[0].style.height = '415px'
   document.getElementsByClassName("button-next2")[0].style.display = 'block';
   document.getElementsByClassName("button-next3")[0].style.display = 'block';
   document.getElementsByClassName("ytube1")[0].style.display = 'inline';
@@ -57,7 +57,7 @@ function right_box(){
   document.getElementsByClassName("image3")[0].src = '/images/vegi.jpg';
   document.getElementsByClassName("box")[0].style.margin = "90px 0px 0px 0px";
   document.getElementsByClassName("image3")[0].style.width= "40%";
-  document.getElementsByClassName("image3")[0].style.height = '400px'
+  document.getElementsByClassName("image3")[0].style.height = '415px'
   document.getElementsByClassName("button-next4")[0].style.display = 'block';
   document.getElementsByClassName("button-next5")[0].style.display = 'block';
   document.getElementsByClassName("ytube2")[0].style.display = 'inline';
