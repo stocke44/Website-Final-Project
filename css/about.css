@@ -1,5 +1,53 @@
-.box{
-    height:400px;
-    width:80%;
-    border: 2px solid black;
+body{
+    background-image:url('../images/body.jpg');
 }
+
+.box{
+    height:650px;
+    width:33%;
+    border: 2px solid black;
+    margin: 90px 0px 0px 1px;
+}
+.image{
+    height: 650px;
+    width: 100%;
+}
+.button-next{
+    float: right;
+    margin-right: 225px;
+    margin-top: 380px;
+    display: none;
+}
+.button-next1{
+    float: right;
+    margin-right: 225px;
+    display: none;
+}
+.button-next2{
+    float: right;
+    margin-right: 225px;
+    margin-top: 380px;
+    display: none;
+}
+.button-next3{
+    float: right;
+    margin-right: 225px;
+    display: none;
+}
+.button-next4{
+    float: right;
+    margin-right: 225px;
+    margin-top: 380px;
+    display: none;
+}
+.button-next5{
+    float: right;
+    margin-right: 225px;
+    display: none;
+}
+.ytube,.ytube1,.ytube2,.text,.text1,.text2{
+    display:none;
+}
+/*.left{*/
+/*    transform: translate( -300px,0px);*/
+/*}*/

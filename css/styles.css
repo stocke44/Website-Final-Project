@@ -1,23 +1,34 @@
 body{
     margin:0 auto;
     width: 100%;
-    
-    background-image:url('../images/body.jpg')
+    /*background-image:url('../images/body.jpg')*/
 }
 
 
 
-
+.bgvideo {
+position: fixed;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+z-index: -1;
+transform: translateX(-50%) translateY(-50%);
+}
 
 /*<!---------- Start of Navbar ---------->*/
 .navbar{
     background-color: orange;
     height:70px;
-    width:100%;
+    width:80%;
     position:fixed;
-    top: 0;
+    top: 10px;
     left:0;
+    right: 0;
     z-index: 1;
+    border:2px solid white;
+    border-radius: 33px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .nav-search{
     margin-top: 19px;
@@ -42,24 +53,62 @@ ul {
 .anchor{
     float: left;
 }
+
 .list-item{
     float:left;
     list-style-type: none;
     background-color: white;
     margin:4px;
     border:2px solid black;
+    color: black;
 }
 /*<!---------- End of Navbar ---------->*/
 
 /*<!---------- Start of Hero ---------->*/
+h1{
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 300px;
+    background-color: orange;
+    border:2px solid white;
+    border-radius:33px;
+}
+.margin{
+    height:150px;
+    width: 34%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.list-pic{
+    float:left;
+    list-style-type: none;
+    background-color: white;
+    margin:4px;
+    border:2px solid black;
+    height:100px;
+    width: 160px;
+    display: none;
+}
 
+.image1{
+    background-image:url('../images/adult_gohan.jpg');
+    background-size: 100% 100px;
+}
+.image2{
+    background-image:url('../images/videl_edit.jpg');
+    background-size: 100% 100px;
+}
+.image3{
+    background-image:url('../images/vegito.jpg');
+    background-size: 100% 100px;
+}
 .hero{
-    background-image:url('../images/hero.png');
-    background-size: 100% 500px;
+    /*background-image:url('../images/hero.png');*/
+    /*background-size: 100% 500px;*/
     height:500px;
     width: 100%;
     position: relative;
-    top: 50px;
+    top: 60px;
     
 }
 
@@ -79,7 +128,10 @@ ul {
     border: 2px solid black;
     margin: 75px 30px 30px 30px;
 }
-
+.video{
+    height:200px;
+    width: 33%;
+}
 
 
 
@@ -87,9 +139,15 @@ ul {
 
 /*<!---------- Start of  Footer ---------->*/
 footer{
-    background-color: orange;
-    height:70px;
     clear: both;
+    background-color:orange;
+    height:55px;
+    width:60%;
+    border:2px solid white;
+    border-radius: 33px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
 }
 .footer-words{
     float: left;
