@@ -4,7 +4,7 @@ function display() {
     for(i=0; i<3; i++){
       x[i].style.display = "block";
       document.getElementsByClassName("bgvideo")[0].style.display = 'none';
-      document.body.style.backgroundImage = "url('/images/alt.jpg')";
+      document.body.style.backgroundImage = "url('images/alt.jpg')";
       document.body.style.backgroundSize = "100% 900px";
     }
   }
